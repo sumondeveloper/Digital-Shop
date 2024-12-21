@@ -1,4 +1,5 @@
 import Banner from "../../components/banner/Banner";
+import AboutUs from "../about/AboutUs";
 import Catagory from "../catagory/Catagory";
 import CategoryProducts from "../catagory/CategoryProducts";
 import LocationSprade from "../locationsprade/LocationSprade";
@@ -12,6 +13,7 @@ const Home = () => {
       <CategoryProducts />
       <Ragister />
       <LocationSprade />
+      <AboutUs />
     </div>
   );
 };
