@@ -1,6 +1,7 @@
 import Banner from "../../components/banner/Banner";
 import Catagory from "../catagory/Catagory";
 import CategoryProducts from "../catagory/CategoryProducts";
+import LocationSprade from "../locationsprade/LocationSprade";
 import Ragister from "../register/Ragister";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Catagory />
       <CategoryProducts />
       <Ragister />
+      <LocationSprade />
     </div>
   );
 };
