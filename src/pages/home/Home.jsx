@@ -5,6 +5,7 @@ import Catagory from "../catagory/Catagory";
 import CategoryProducts from "../catagory/CategoryProducts";
 import LocationSprade from "../locationsprade/LocationSprade";
 import Ragister from "../register/Ragister";
+import Sponsord from "../sponsord/Sponsord";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <LocationSprade />
       <AboutUs />
       <AppSection />
+      <Sponsord />
     </div>
   );
 };
